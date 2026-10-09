@@ -13,6 +13,8 @@
 
 > **Status note:** v0.1.0 development baseline — **not audited and not production-ready.**
 
+📚 **Documentation site:** [https://anchor-flow-s.github.io/anchorflow-app/](https://anchor-flow-s.github.io/anchorflow-app/) — user guide, backend API reference, smart contract guide, configuration and deployment docs. The source lives in [`docs/`](docs/) (MkDocs Material, built with `mkdocs build --strict` in CI).
+
 ## Why this exists
 
 AnchorFlow provides payment routing and settlement tooling for Stellar anchors. On-chain state is the source of truth; off-chain services stay out of consensus-critical logic. This repository is the **user-facing web application** of the three-repo AnchorFlow system:
